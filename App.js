@@ -6,6 +6,7 @@ export default class App extends React.Component {
     
     return (
       <WebView style={styles.container} 
+      //example site
       source={{uri: 'https:/www.emarketestate.com/'}}
       style={{marginTop: 20}}
       />
